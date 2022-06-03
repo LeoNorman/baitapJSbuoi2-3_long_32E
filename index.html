@@ -1,0 +1,135 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+  <title>Bài tập JS buổi 2-3</title>
+  <!-- Required meta tags -->
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+  <!-- Bootstrap CSS -->
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"
+    integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+</head>
+
+<body>
+  <div class="container bg-dark" style="margin-bottom: 500px">
+    <!-- bài tập 1 -->
+    <h3 class="text-center text-white">Bài tập 1</h3>
+    <div class="d-flex justify-content-center">
+      <div class="card w-50 text-center">
+        <div class="card-top bg-danger">
+          <h3>Tính tiền lương Nhân Viên</h3>
+        </div>
+        <div class="card-body">
+          <input type="number" id="luongMotNgay" placeholder="Nhập lương một ngày">
+          <input type="number" id="soNgayLam" placeholder="Số Ngày làm">
+        </div>
+        <div class="card-footer">
+          <button class="btn btn-success" id="tinhLuong">Tính lương</button>
+          <br>
+          <br>
+          <input disabled class="text-center text-white bg-dark w-100" id="tongTien" value="Tổng lương">
+        </div>
+      </div>
+    </div>
+
+    <!-- bài tập 2 -->
+    <h3 class="text-center text-white">Bài tập 2</h3>
+    <div class="d-flex justify-content-center">
+      <div class="card w-50 text-center">
+        <div class="card-top bg-danger">
+          <h3>Tính giá trị trung bình</h3>
+        </div>
+        <div class="card-body">
+          <input type="number" id="number1" placeholder="Nhập số thứ 1">
+          <input type="number" id="number2" placeholder="Nhập số thứ 2">
+          <input type="number" id="number3" placeholder="Nhập số thứ 3">
+          <input type="number" id="number4" placeholder="Nhập số thứ 4">
+          <input type="number" id="number5" placeholder="Nhập số thứ 5">
+        </div>
+        <div class="card-footer">
+          <button class="btn btn-success" id="tinhTrungBinh">Tính Trung Bình</button>
+          <br>
+          <br>
+          <input disabled class="text-center text-white bg-dark w-100" id="trungBinh" value="giá trị trung bình">
+        </div>
+      </div>
+    </div>
+
+    <!-- bài tập 3 -->
+    <h3 class="text-center text-white">Bài tập 3</h3>
+    <div class="d-flex justify-content-center">
+      <div class="card w-50 text-center">
+        <div class="card-top bg-danger">
+          <h3>Quy đổi tiền</h3>
+        </div>
+        <div class="card-body">
+          <input type="number" id="soTienUsD" placeholder="Nhập số tiền USD">
+        </div>
+        <div class="card-footer">
+          <button class="btn btn-success" id="btnDoiTien">Quy đổi tiền</button>
+          <br>
+          <br>
+          <input disabled class="text-center text-white bg-dark w-100" id="tienQuyDoi" value="số tiền quy đổi">
+        </div>
+      </div>
+    </div>
+
+    <!-- bài tập 4 -->
+    <h3 class="text-center text-white">Bài tập 4</h3>
+    <div class="d-flex justify-content-center">
+      <div class="card w-50 text-center">
+        <div class="card-top bg-danger">
+          <h3>Tính diện tích, chu vi hình chữ nhật</h3>
+        </div>
+        <div class="card-body">
+          <input type="number" id="nhapChieuDai" placeholder="Nhập số chiều dài">
+          <input type="number" id="nhapChieuRong" placeholder="Nhập số chiều rộng">
+        </div>
+        <div class="card-footer">
+          <button class="btn btn-success" id="btnTinhToan">Tính</button>
+          <br>
+          <br>
+          <input disabled class="text-center text-white bg-dark w-100" id="ketQua" value="Kết quả">
+        </div>
+      </div>
+    </div>
+
+    <!-- bài tập 5 -->
+    <h3 class="text-center text-white">Bài tập 5</h3>
+    <div class="d-flex justify-content-center">
+      <div class="card w-50 text-center">
+        <div class="card-top bg-danger">
+          <h3>Tính tổng 2 ký số</h3>
+        </div>
+        <div class="card-body">
+          <input type="number" id="nhapSo" placeholder="Nhập số có 2 chữ số">
+        </div>
+        <div class="card-footer">
+          <button class="btn btn-success" id="tinhTong">Tính Tổng</button>
+          <br>
+          <br>
+          <input disabled class="text-center text-white bg-dark w-100" id="tong2KySo" value="Kết quả">
+        </div>
+      </div>
+    </div>
+  </div>
+
+
+
+  <!-- Optional JavaScript -->
+  <!-- jQuery first, then Popper.js, then Bootstrap JS -->
+  <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"
+    integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo"
+    crossorigin="anonymous"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"
+    integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1"
+    crossorigin="anonymous"></script>
+  <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"
+    integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM"
+    crossorigin="anonymous"></script>
+  <script src="./js/main.js"></script>
+</body>
+
+</html>
